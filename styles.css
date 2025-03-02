@@ -1,0 +1,102 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#company-name {
+    font-size: 3em;
+    margin: 0;
+    color: #e74c3c;
+}
+
+.tagline {
+    font-size: 1.2em;
+    font-style: italic;
+    margin: 10px 0 0;
+}
+
+.about-us {
+    padding: 20px;
+    text-align: center;
+    background-color: #ecf0f1;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-us h2 {
+    font-size: 2em;
+    color: #2c3e50;
+}
+
+.team {
+    padding: 20px;
+    text-align: center;
+}
+
+.team h2 {
+    font-size: 2em;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.worker-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.worker-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 200px;
+    transition: transform 0.3s ease;
+}
+
+.worker-card:hover {
+    transform: translateY(-10px);
+}
+
+.worker-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #e74c3c;
+}
+
+.worker-card h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #2c3e50;
+}
+
+.worker-card p {
+    font-size: 0.9em;
+    color: #7f8c8d;
+    margin: 0 0 10px;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
